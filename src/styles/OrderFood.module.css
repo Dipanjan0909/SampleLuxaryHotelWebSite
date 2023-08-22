@@ -1,0 +1,17 @@
+.img{
+    position: relative;
+    top: 6rem;
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 30px;
+    bottom: 6rem;
+    left: 6rem;
+}
+.div{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 20rem;
+}

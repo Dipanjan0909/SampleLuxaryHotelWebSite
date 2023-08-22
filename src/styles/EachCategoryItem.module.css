@@ -1,0 +1,76 @@
+.meal {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+    text-align: center;
+    max-width: 80rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    position: relative;
+    background-color: #d7cccc;
+    color: black;
+    border-radius: 14px;
+    padding: 1rem;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .meal h3 {
+    margin: 0 0 0.25rem 0;
+  }
+  
+  .price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #437b06;
+    font-size: 1.25rem;
+  }
+.div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btn{
+  font: inherit;
+  cursor: pointer;
+  background-color: #8E44AD;
+  border: 1px solid #9213c8;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.delBtn{
+  background-color: rgb(240, 137, 137);
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+  font: inherit;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #d8a9ed;
+  border-color: #9213c8;
+}
+.delBtn:hover,
+.delBtn:active {
+  background-color: rgb(229, 83, 83);
+  border-color: rgb(76, 25, 25);
+}
+.count{
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.eachitem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
